@@ -153,6 +153,7 @@ int main(int argc, char* argv[])
     }
 
     setDecimal(displayFd, decimalPoint);
+    close(displayFd);
 
     return 0;
 }
